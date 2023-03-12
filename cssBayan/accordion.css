@@ -10,7 +10,7 @@
 body {
   overflow-y: auto;
   height: 100vh;
-  max-width: 1200px;
+  max-width: 75rem;
   padding: 1rem;
   margin: 0 auto;
 }
@@ -18,7 +18,7 @@ body {
 .meme-image {
     height: auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     margin: 1rem auto;
 }
 
@@ -35,19 +35,19 @@ body {
 .project-title {
     color: #302F59;
     padding-bottom: 1rem;
-    font-size: 24px;
-    letter-spacing: 1.62px;
-    border-bottom: 2px solid #8E8CE8;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1125rem;
+    border-bottom: 0.1em solid #8E8CE8;
+    margin-bottom: 2rem;
 }
 
 .accordion {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .accordion .accordion_item {
-    border-radius: 5px;
-    border: 2px solid #2E2F5B;
+    border-radius: 0.375rem;
+    border: 0.2em solid #2E2F5B;
     margin-bottom: 1.5rem;
 }
 
@@ -55,12 +55,12 @@ body {
     display: flex;
     flex-direction:column;
     padding: 1rem;
-    font-size: 14px;
+    font-size: 0.875rem;
     background-color: #D0D2D3;
     color: #2E2F5B;
-    letter-spacing: 2.1px;
+    letter-spacing: 0.1125rem;
     text-transform: uppercase;
-    line-height: 18px;
+    line-height: 1.125rem;
     font-weight: bold;
     cursor: pointer;
     transition: all 1s;
@@ -91,7 +91,6 @@ body {
    transition: height 1s;
 }
 
-
 .accordion_input:checked + .accordion_label {
    color: white;
 }
@@ -108,7 +107,7 @@ body {
      }
     
     .accordion:hover .accordion_input + .accordion_label {
-        color: white;
+        color: #ffffff;
     }
     
     .accordion:hover .accordion_input + .accordion_label .icon {
@@ -132,21 +131,21 @@ body {
 
 @media(min-width: 768px) and (max-width: 1024px) {
     .project-title {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .accordion .accordion_label { 
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
 }
 
 @media(min-width: 1024px) {
     .project-title {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 
     .accordion .accordion_label { 
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
