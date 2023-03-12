@@ -41,9 +41,9 @@ body {
     margin-bottom: 2rem;
 }
 
-.accordion {
+/* .accordion {
     cursor: pointer;
-}
+} */
 
 .accordion .accordion_item {
     border-radius: 0.375rem;
