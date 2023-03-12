@@ -41,14 +41,9 @@ body {
     margin-bottom: 2rem;
 }
 
-/* .accordion {
-    cursor: pointer;
-} */
-
 .accordion .accordion_item {
     border-radius: 0.375rem;
-    border: 0.2em solid #2E2F5B;
-    margin-bottom: 1.5rem;
+    border-bottom: 0.2em solid #2E2F5B;
 }
 
 .accordion .accordion_label {
